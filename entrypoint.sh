@@ -7,5 +7,5 @@ yes | python manage.py makemigrations > /dev/stderr
 yes | python manage.py makemigrations api > /dev/stderr
 yes yes | python manage.py migrate > /dev/stderr
 
+python manage.py loaddata fixture/users.json > /dev/stderr
 python manage.py runserver 0.0.0.0:5000 > /dev/stderr
-
