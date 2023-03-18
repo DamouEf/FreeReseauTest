@@ -1,0 +1,92 @@
+[
+    {
+      "model": "api.ticket",
+      "pk": 1,
+      "fields": {
+        "priority": 1,
+        "zone": "A",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "api.ticket",
+      "pk": 2,
+      "fields": {
+        "priority": 2,
+        "zone": "B",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "api.ticket",
+      "pk": 3,
+      "fields": {
+        "priority": 3,
+        "zone": "C",
+        "created_by": 2
+      }
+    },
+    {
+      "model": "api.ticket",
+      "pk": 4,
+      "fields": {
+        "priority": 4,
+        "zone": "D",
+        "created_by": 2
+      }
+    },
+    {
+      "model": "api.ticket",
+      "pk": 5,
+      "fields": {
+        "priority": 1,
+        "zone": "A",
+        "created_by": 3
+      }
+    },
+    {
+      "model": "api.ticket",
+      "pk": 6,
+      "fields": {
+        "priority": 2,
+        "zone": "B",
+        "created_by": 3
+      }
+    },
+    {
+      "model": "api.ticket",
+      "pk": 7,
+      "fields": {
+        "priority": 3,
+        "zone": "C",
+        "created_by": 1
+      }
+    },
+    {
+      "model": "api.ticket",
+      "pk": 8,
+      "fields": {
+        "priority": 4,
+        "zone": "D",
+        "created_by": 2
+      }
+    },
+    {
+      "model": "api.ticket",
+      "pk": 9,
+      "fields": {
+        "priority": 1,
+        "zone": "A",
+        "created_by": 3
+      }
+    },
+    {
+      "model": "api.ticket",
+      "pk": 10,
+      "fields": {
+        "priority": 2,
+        "zone": "B",
+        "created_by": 1
+      }
+    }
+  ]
