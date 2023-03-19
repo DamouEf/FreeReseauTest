@@ -31,6 +31,6 @@ router.register(r'tickets', views.TicketViewSet, basename='tickets')
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^api/v1/', include(router.urls)),
-    path('api/auth/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    path('api/v1/auth/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('api/v1/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ]
