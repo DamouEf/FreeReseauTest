@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import Ticket
 
-# Register your models here.
+class TicketAdmin(admin.ModelAdmin):
+    list_display = ('id', 'zone', 'priority', 'created_by')
+    list_filter = ('zone', 'priority', 'created_by')
+
+admin.site.register(Ticket, TicketAdmin)
